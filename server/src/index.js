@@ -7,7 +7,7 @@ const requireDir = require('require-dir');
 const app = express();
 
 // Iniciando o DB
-mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@skylab-nodejs-lhhtf.mongodb.net/nodeapi?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://alexandre:minhasenha12345678@skylab-nodejs-lhhtf.mongodb.net/nodeapi?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });

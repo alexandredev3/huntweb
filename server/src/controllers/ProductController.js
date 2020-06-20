@@ -8,7 +8,7 @@ module.exports = {
     async index(req, res) {
         const { page = 1 } = req.query;
         // "page = 1" Estou definindo uma rota padrão.
-        const products = await Product.paginate({}, { page, limite: 10 });
+        const products = await Product.paginate({}, { page, limite: 5 });
         // No page:1 podemos deixar so page mesmo.
 
         return res.json(products);
