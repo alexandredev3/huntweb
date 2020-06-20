@@ -1,0 +1,21 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:server": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "mongoose-paginate": "^5.0.3",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "jest": "^25.2.7",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  }
+}
