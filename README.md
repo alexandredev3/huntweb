@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="https://github.com/alexandredev3/huntweb/blob/master/header.png" />
 </h1>
-<p align="center">loja de tecnologias web.</p>
+<h3 align="center">loja de tecnologias web.</h3>
 
 <p align="center">
   <a href="https://github.com/alexandredev3" target="_blank">
